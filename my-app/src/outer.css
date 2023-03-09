@@ -1,0 +1,24 @@
+* {
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.activeBtn {
+  cursor: pointer;
+  background-color: plum;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.inactiveBtn {
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 10px;
+}
